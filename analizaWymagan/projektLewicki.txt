@@ -1,0 +1,15 @@
+FR-01 - logowanie - admin, kierownik, magazynier(pracownik)
+FR-02 - wyszukiwanie nazwa lub kodem produktu: sprawdza czy produkt istnieje w magazynie
+FR-03 - wyszukiwaine lokalizacji w magazynie: pokazuje produkt w magazynie
+FR-04 - sprawdzanie stanu magazynu: pokazuje liczby produktu
+FR-05 - przyjecie i wydanie towaru: dodaje lub odejmuje liczbe produktów
+FR-06 - admin może zarzadzac kontami pracowników: zmieniac/resetować hasla
+FR-07 - historia operacji dla kierownika: kiedy wykonana, przez kogo wykonana, na czym wykonana;
+
+NFR-01 - dobrze zoptymalizowany żeby dane były szybko przetwarzane
+NFR-02 - każdy użytkownik powinien mieć swoje jedno konto i uprawnienia powinny być dobrane dobrze dla admina, kierownika i pracownika
+NFR-03 - hasla musza być dostępne tylko dla osob z przypisanym kontem i dla admina
+
+1 - magazynier(pracownik): obsluga magazynu, przyjmownie i wydaswanie produktu, sprawdzanie lokalizacji
+2 - kierownik: przegladnie historii operacji, informacji o produktach
+3 - admin: zarzadzanie kontami, resetowanie hasel, nadawanie uprawnien
